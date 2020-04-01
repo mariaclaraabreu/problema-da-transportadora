@@ -3,7 +3,7 @@ Utilizando estrutura de dados para resolver problemas de uma transportadora.
 
 Sistema para uma transportadora de encomendas que possui as seguintes fases para realização de um trasporte de encomendas:
 
-#Fase 1: 
+# Fase 1: 
 Inicialmente o vendedor procura a transportadora para criar um processo de envio de encomenda, onde é atendido por um estagiário. O estagiário fica encarregado de criar a documentação inicial do processo de transporte e colocá-lo em uma lista processos que serão avaliados por um dos vários secretários que trabalham na transportadora.
 
 Detalhes importantes desta fase:
