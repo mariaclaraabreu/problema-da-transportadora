@@ -1,5 +1,5 @@
 # problema-da-transportadora
-Utilizando estrutura de dados para resolver problemas de uma transportadora.
+Utilizando estrutura de dados Heap e Hash para mapeamento dos dados, visando resolver problemas de uma transportadora.
 
 Sistema para uma transportadora de encomendas que possui as seguintes fases para realização de um trasporte de encomendas:
 
