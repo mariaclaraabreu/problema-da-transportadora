@@ -1,9 +1,9 @@
-# problema-da-transportadora
+# Problema da Transportadora
 Utilizando estrutura de dados Heap e Hash para mapeamento dos dados, visando resolver problemas de uma transportadora.
 
 Sistema para uma transportadora de encomendas que possui as seguintes fases para realização de um trasporte de encomendas:
 
-# Fase 1: 
+<h2>Fase 1:</h2> 
 Inicialmente o vendedor procura a transportadora para criar um processo de envio de encomenda, onde é atendido por um estagiário. O estagiário fica encarregado de criar a documentação inicial do processo de transporte e colocá-lo em uma lista processos que serão avaliados por um dos vários secretários que trabalham na transportadora.
 
 Detalhes importantes desta fase:
@@ -16,7 +16,7 @@ Detalhes importantes desta fase:
 4 – A lista de processos deverá ser implementada com uma lista duplamente encadeada com ponteiros no início e no fim. O aluno deverá decidir qual a ordem de inserção e qual a ordem de remoção dessa lista.
 
 
-# Fase 2:
+<h2>Fase 2:</h2>
 Qualquer um dos secretários da transportadora pode remover um processo da lista de processos . Assim que o fizer, deverá ser responsável pelo transporte, não sendo possível recusar a gerenciar o processo. O secretário deve ler o processo, colocar um valor de token de 0 a 100 (maior valor representa maior prioridade) no campo de prioridade e cadastrar o documento do processo na fila de processos a serem transportados.
 
 Detalhes importantes desta fase: 
@@ -29,7 +29,7 @@ Detalhes importantes desta fase:
 4 – Quando o secretário cadastrar o token de prioridade no documento este deve ser colocado em uma fila de prioridades que deve ser implementada utilizando heap máxima.
 
 
-# Fase 3: 
+<h2>Fase 3: </h2>
 Qualquer um dos transportadores do sistema pode remover um documento de processo da fila de processos a serem transportados. O transportador remove o documento de processo e dá início aos pedidos formais para que se execute todos os processos do transporte da encomenda.
 
 Detalhes importantes desta fase: 
